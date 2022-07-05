@@ -13,6 +13,10 @@
 		1C3D235A287466B900C05D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D2358287466B900C05D77 /* Main.storyboard */; };
 		1C3D235C287466BC00C05D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D235B287466BC00C05D77 /* Assets.xcassets */; };
 		1C3D235F287466BC00C05D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D235D287466BC00C05D77 /* LaunchScreen.storyboard */; };
+		1C3D236A2874820300C05D77 /* PrefecturesList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D23692874820300C05D77 /* PrefecturesList.storyboard */; };
+		1C3D236C287482E500C05D77 /* PrefecturesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D236B287482E500C05D77 /* PrefecturesListViewController.swift */; };
+		1C3D236E2874849800C05D77 /* PrefecturesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D236D2874849800C05D77 /* PrefecturesTableViewCell.xib */; };
+		1C3D2370287484AD00C05D77 /* PrefecturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D236F287484AD00C05D77 /* PrefecturesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1C3D235B287466BC00C05D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C3D235E287466BC00C05D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C3D2360287466BC00C05D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3D23692874820300C05D77 /* PrefecturesList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PrefecturesList.storyboard; sourceTree = "<group>"; };
+		1C3D236B287482E500C05D77 /* PrefecturesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesListViewController.swift; sourceTree = "<group>"; };
+		1C3D236D2874849800C05D77 /* PrefecturesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrefecturesTableViewCell.xib; sourceTree = "<group>"; };
+		1C3D236F287484AD00C05D77 /* PrefecturesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				1C3D2354287466B900C05D77 /* SceneDelegate.swift */,
 				1C3D2356287466B900C05D77 /* ViewController.swift */,
 				1C3D2358287466B900C05D77 /* Main.storyboard */,
+				1C3D236B287482E500C05D77 /* PrefecturesListViewController.swift */,
+				1C3D23692874820300C05D77 /* PrefecturesList.storyboard */,
+				1C3D236F287484AD00C05D77 /* PrefecturesTableViewCell.swift */,
+				1C3D236D2874849800C05D77 /* PrefecturesTableViewCell.xib */,
 				1C3D235B287466BC00C05D77 /* Assets.xcassets */,
 				1C3D235D287466BC00C05D77 /* LaunchScreen.storyboard */,
 				1C3D2360287466BC00C05D77 /* Info.plist */,
@@ -127,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3D235F287466BC00C05D77 /* LaunchScreen.storyboard in Resources */,
+				1C3D236E2874849800C05D77 /* PrefecturesTableViewCell.xib in Resources */,
+				1C3D236A2874820300C05D77 /* PrefecturesList.storyboard in Resources */,
 				1C3D235C287466BC00C05D77 /* Assets.xcassets in Resources */,
 				1C3D235A287466B900C05D77 /* Main.storyboard in Resources */,
 			);
@@ -159,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3D2370287484AD00C05D77 /* PrefecturesTableViewCell.swift in Sources */,
 				1C3D2357287466B900C05D77 /* ViewController.swift in Sources */,
+				1C3D236C287482E500C05D77 /* PrefecturesListViewController.swift in Sources */,
 				1C3D2353287466B900C05D77 /* AppDelegate.swift in Sources */,
 				1C3D2355287466B900C05D77 /* SceneDelegate.swift in Sources */,
 			);
