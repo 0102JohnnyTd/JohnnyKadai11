@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     @IBAction private func showPrefecturesListVC(_ sender: Any) {
         let prefecturesListVC = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: storyboardID) as! PrefecturesListViewController
 
