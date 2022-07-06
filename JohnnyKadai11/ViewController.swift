@@ -7,9 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     @IBOutlet private weak var selectedPrefectureLabel: UILabel!
-    
+
     @IBAction private func showPrefecturesListVC(_ sender: Any) {
         let prefecturesListVC = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: storyboardID) as! PrefecturesListViewController
 

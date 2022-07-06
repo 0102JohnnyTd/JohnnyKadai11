@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PrefecturesListViewController: UIViewController {
+final class PrefecturesListViewController: UIViewController {
     @IBOutlet private weak var prefecturesTableView: UITableView!
 
     @IBAction private func cancelVC(_ sender: Any) {

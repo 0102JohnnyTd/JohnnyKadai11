@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PrefecturesTableViewCell: UITableViewCell {
+final class PrefecturesTableViewCell: UITableViewCell {
     @IBOutlet private weak var prefecturesLabel: UILabel!
     
     func configure(prefecturesData: String) {
