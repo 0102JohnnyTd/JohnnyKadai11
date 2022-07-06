@@ -10,6 +10,10 @@ import UIKit
 class PrefecturesListViewController: UIViewController {
     @IBOutlet private weak var prefecturesTableView: UITableView!
 
+    @IBAction private func cancelVC(_ sender: Any) {
+        dismiss(animated: true)
+    }
+
     private let nib = "PrefecturesTableViewCell"
     private let cellID = "CellID"
 
