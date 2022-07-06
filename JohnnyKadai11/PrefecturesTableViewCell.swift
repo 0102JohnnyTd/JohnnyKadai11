@@ -9,6 +9,7 @@ import UIKit
 
 class PrefecturesTableViewCell: UITableViewCell {
     @IBOutlet private weak var prefecturesLabel: UILabel!
+    
     func configure(prefecturesData: String) {
         prefecturesLabel.text = prefecturesData
     }

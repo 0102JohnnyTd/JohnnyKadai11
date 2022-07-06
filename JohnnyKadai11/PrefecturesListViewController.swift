@@ -19,6 +19,8 @@ class PrefecturesListViewController: UIViewController {
 
     private let prefecturesData = PrefecturesData().dataArray
 
+    var completion: ((String) -> Void)?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         prefecturesTableView.delegate = self
@@ -37,5 +39,10 @@ extension PrefecturesListViewController: UITableViewDelegate, UITableViewDataSou
 
         cell.configure(prefecturesData: prefecturesData[indexPath.row])
         return cell
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        completion?(prefecturesData[indexPath.row])
+        dismiss(animated: true)
     }
 }
