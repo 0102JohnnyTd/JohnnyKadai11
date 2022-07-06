@@ -11,7 +11,10 @@ class ViewController: UIViewController {
     @IBAction private func showPrefecturesListVC(_ sender: Any) {
         let prefecturesListVC = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: storyboardID) as! PrefecturesListViewController
 
-        present(prefecturesListVC, animated: true)
+        let nav = UINavigationController(rootViewController: prefecturesListVC)
+        nav.modalPresentationStyle = .fullScreen
+
+        present(nav, animated: true)
     }
 
     private let storyboardName = "PrefecturesList"
@@ -19,6 +22,5 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 }

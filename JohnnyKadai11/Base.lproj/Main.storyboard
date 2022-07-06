@@ -53,10 +53,11 @@
                             <constraint firstItem="e15-fG-dbX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="yvv-tZ-Hoc"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Pzd-q5-ofP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="72"/>
+            <point key="canvasLocation" x="939.13043478260875" y="71.651785714285708"/>
         </scene>
     </scenes>
     <resources>
