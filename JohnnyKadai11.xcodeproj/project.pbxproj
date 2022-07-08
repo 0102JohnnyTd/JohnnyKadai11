@@ -17,7 +17,7 @@
 		1C3D236C287482E500C05D77 /* PrefecturesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D236B287482E500C05D77 /* PrefecturesListViewController.swift */; };
 		1C3D236E2874849800C05D77 /* PrefecturesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D236D2874849800C05D77 /* PrefecturesTableViewCell.xib */; };
 		1C3D2370287484AD00C05D77 /* PrefecturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D236F287484AD00C05D77 /* PrefecturesTableViewCell.swift */; };
-		1C3D23722874873000C05D77 /* PrefecturesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D23712874873000C05D77 /* PrefecturesData.swift */; };
+		1C3D23742877DDE100C05D77 /* PrefecturesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D23732877DDE100C05D77 /* PrefecturesData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		1C3D236B287482E500C05D77 /* PrefecturesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesListViewController.swift; sourceTree = "<group>"; };
 		1C3D236D2874849800C05D77 /* PrefecturesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrefecturesTableViewCell.xib; sourceTree = "<group>"; };
 		1C3D236F287484AD00C05D77 /* PrefecturesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesTableViewCell.swift; sourceTree = "<group>"; };
-		1C3D23712874873000C05D77 /* PrefecturesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrefecturesData.swift; path = ../../../Kadai10/JohnnyKadai10/JohnnyKadai10/PrefecturesData.swift; sourceTree = "<group>"; };
+		1C3D23732877DDE100C05D77 /* PrefecturesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 			children = (
 				1C3D2352287466B900C05D77 /* AppDelegate.swift */,
 				1C3D2354287466B900C05D77 /* SceneDelegate.swift */,
-				1C3D23712874873000C05D77 /* PrefecturesData.swift */,
 				1C3D2356287466B900C05D77 /* ViewController.swift */,
+				1C3D23732877DDE100C05D77 /* PrefecturesData.swift */,
 				1C3D2358287466B900C05D77 /* Main.storyboard */,
 				1C3D236B287482E500C05D77 /* PrefecturesListViewController.swift */,
 				1C3D23692874820300C05D77 /* PrefecturesList.storyboard */,
@@ -176,11 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3D23742877DDE100C05D77 /* PrefecturesData.swift in Sources */,
 				1C3D2370287484AD00C05D77 /* PrefecturesTableViewCell.swift in Sources */,
 				1C3D2357287466B900C05D77 /* ViewController.swift in Sources */,
 				1C3D236C287482E500C05D77 /* PrefecturesListViewController.swift in Sources */,
 				1C3D2353287466B900C05D77 /* AppDelegate.swift in Sources */,
-				1C3D23722874873000C05D77 /* PrefecturesData.swift in Sources */,
 				1C3D2355287466B900C05D77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

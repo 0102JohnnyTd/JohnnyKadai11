@@ -20,7 +20,7 @@ final class ViewController: UIViewController {
 
         present(nav, animated: true)
     }
-
+    
     private let storyboardName = "PrefecturesList"
     private let storyboardID = "StoryboardID"
 }
