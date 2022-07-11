@@ -17,7 +17,7 @@ final class PrefecturesListViewController: UIViewController {
     private let nib = "PrefecturesTableViewCell"
     private let cellID = "CellID"
 
-    private let prefecturesData = PrefecturesData().dataArray
+    private let prefectureNames = PrefecturesData().names
 
     var completion: ((String) -> Void)?
 
@@ -31,18 +31,18 @@ final class PrefecturesListViewController: UIViewController {
 
 extension PrefecturesListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        prefecturesData.count
+        prefectureNames.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = prefecturesTableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! PrefecturesTableViewCell
 
-        cell.configure(prefecturesData: prefecturesData[indexPath.row])
+        cell.configure(name: prefectureNames[indexPath.row])
         return cell
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        completion?(prefecturesData[indexPath.row])
+        completion?(prefectureNames[indexPath.row])
         dismiss(animated: true)
     }
 }
