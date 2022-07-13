@@ -37,7 +37,7 @@ extension PrefecturesListViewController: UITableViewDelegate, UITableViewDataSou
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = prefecturesTableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! PrefecturesTableViewCell
 
-        cell.configure(prefecturesData: prefecturesData[indexPath.row])
+        cell.configure(name: prefecturesData[indexPath.row])
         return cell
     }
 

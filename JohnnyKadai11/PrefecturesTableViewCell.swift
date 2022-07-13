@@ -10,7 +10,7 @@ import UIKit
 final class PrefecturesTableViewCell: UITableViewCell {
     @IBOutlet private weak var nameLabel: UILabel!
     
-    func configure(prefecturesData: String) {
-        nameLabel.text = prefecturesData
+    func configure(name: String) {
+        nameLabel.text = name
     }
 }
