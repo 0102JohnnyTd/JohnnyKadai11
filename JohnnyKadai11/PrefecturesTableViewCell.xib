@@ -28,6 +28,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="nameLabel" destination="rwp-Rb-Jcj" id="whC-0n-0yh"/>
                 <outlet property="prefecturesLabel" destination="rwp-Rb-Jcj" id="mgO-BF-uJC"/>
             </connections>
             <point key="canvasLocation" x="132" y="87"/>
