@@ -17,7 +17,7 @@ final class PrefecturesListViewController: UIViewController {
     private let nib = "PrefecturesTableViewCell"
     private let cellID = "CellID"
 
-    private let prefecturesData = PrefecturesData().dataArray
+    private let prefecturesData = PrefecturesData().names
 
     var completion: ((String) -> Void)?
 
